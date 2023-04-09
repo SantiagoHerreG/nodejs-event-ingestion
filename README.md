@@ -10,7 +10,9 @@ Use the following endpoint to send events: POST
 ``` http://localhost:3000/analytics ```
 
 In the body of the request you must send a JSON object with the list of events such as:
-``` [{
+
+``` 
+[{
    "type": "event1",
    "user": 1
 },
