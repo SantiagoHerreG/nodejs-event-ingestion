@@ -19,7 +19,8 @@ In the body of the request you must send a JSON object with the list of events s
 {
    "type": "event2",
    "user": 1
-}] ```
+}] 
+```
 
 Use the following endpoint to get all events: GET
 ``` http://localhost:3000/analytics ```
